@@ -39,9 +39,14 @@ body {
         background-size: cover;
         padding: 3em 18% 3em 10%;
         width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         .logo {
             height: 30px;
+            align-self: flex-start;
         }
 
         .mobile-hero {
@@ -157,7 +162,7 @@ form {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
     .container {
         .content {
             background-image: none;
